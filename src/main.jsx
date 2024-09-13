@@ -7,9 +7,9 @@ import Layout from './Layout.jsx'
 import Product from './pages/Product.jsx'
 import Contact from './pages/Contact.jsx'
 import About from './pages/About.jsx'
-import { Home } from '@mui/icons-material'
 import NotFound from './pages/Notfound.jsx'
 import SingleProduct from './pages/SingleProduct.jsx'
+import Home from './pages/Home.jsx'
 
 const router = createBrowserRouter([
   {

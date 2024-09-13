@@ -17,7 +17,13 @@ export default function MediaCard({image , title , description , id , price}) {
     }
   
     return (
-    <Card className='flex justify-content-center' sx={{ maxWidth: 345 }}>
+    <Card className='flex justify-content-center' sx={{ maxWidth: 345 ,
+      display : "flex , flex-wrap",
+      justifyContent : "center",
+      alignItems : "center",
+      marginTop : "3rem", 
+      gap : "50px"
+    }}>
       <CardMedia
         sx={{ height: 140 }}
         image = {image}
